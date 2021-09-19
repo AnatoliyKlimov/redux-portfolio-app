@@ -1,5 +1,5 @@
 export default class RestoService {
-    getItems() {
+    getMenuItems() {
         return []
     }
 }
