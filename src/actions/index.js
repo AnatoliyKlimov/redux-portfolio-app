@@ -5,8 +5,15 @@ const menuLoaded = (newMenu) => {
     }
 }
 
+const menuRequsted = () => {
+    return {
+        type: 'MENU_REQUESTED',
+    }
+}
+
 export {
-    menuLoaded
+    menuLoaded,
+    menuRequsted
 }
 
 
